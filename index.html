@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CatGames Studio</title>
 <meta name="description" content="CatGames Studio: jogos feitos com carinho. Conheça o Puzzle Fables, quebra-cabeças que contam histórias.">
-<link rel="icon" href="icone.png">
+<link rel="icon" href="favicon.png">
+<meta property="og:title" content="CatGames Studio">
+<meta property="og:description" content="Jogos feitos com carinho. Conheça o Puzzle Fables.">
+<meta property="og:image" content="https://rafaelrubio21.github.io/logo.png">
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -13,32 +16,33 @@
     font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     color: #1a1a1a; background: #fff; text-align: center;
   }
-  h1 { font-size: 2rem; margin: 1rem 0 .25rem; }
+  .logo { width: min(100%, 22rem); height: auto; }
+  h1 { font-size: 1.6rem; margin: .5rem 0 .25rem; }
   .sub { color: #666; margin: 0 0 2.5rem; }
-  .card { background: #f4f4f6; border-left: 3px solid #c8862b; border-radius: 8px;
+  .card { background: #f4f4f6; border-left: 3px solid #ff6a00; border-radius: 8px;
           padding: 1.5rem; text-align: left; }
   .card img { width: 96px; height: 96px; border-radius: 20px; float: left; margin: 0 1.25rem .5rem 0; }
   .card h2 { margin: 0 0 .25rem; font-size: 1.3rem; }
   .card p { margin: .25rem 0 1rem; }
-  .btn { display: inline-block; background: #c8862b; color: #fff; text-decoration: none;
+  .btn { display: inline-block; background: #e8590c; color: #fff; text-decoration: none;
          padding: .6rem 1.2rem; border-radius: 999px; font-weight: 600; }
   footer { margin-top: 3rem; font-size: .9rem; color: #666; }
-  a { color: #a86a14; }
+  a { color: #c2410c; }
   @media (prefers-color-scheme: dark) {
     body { color: #e6e6e6; background: #16161a; }
     .sub, footer { color: #9a9aa0; }
     .card { background: #202028; }
-    a { color: #e0a64a; }
+    a { color: #ff9a52; }
   }
 </style>
 </head>
 <body>
-<img src="icone.png" alt="Gato da CatGames Studio" width="112" height="112" style="border-radius:24px">
+<img class="logo" src="logo.webp" alt="CatGames Studio" width="900" height="785">
 <h1>CatGames Studio</h1>
 <p class="sub">Jogos feitos com carinho.</p>
 
 <div class="card">
-  <img src="icone.png" alt="Ícone do Puzzle Fables">
+  <img src="puzzle-fables.png" alt="Ícone do Puzzle Fables">
   <h2>Puzzle Fables</h2>
   <p>Quebra-cabeças que contam histórias. Cada fábula termina com uma moral.</p>
   <a class="btn" href="https://play.google.com/store/apps/details?id=com.rafaelrubio.puzzlefable">Baixar no Google Play</a>
